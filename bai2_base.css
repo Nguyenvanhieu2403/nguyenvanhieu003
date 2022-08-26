@@ -1,0 +1,22 @@
+@keyframes RaiseY {
+    0% {
+        opacity: 0.5;
+        transform: scaleY(0);
+    }
+    50% {
+        opacity: 1;
+        transform: scaleY(1);
+    }
+}
+
+@keyframes Filter-btn {
+    from {
+        opacity: 0.5;
+        transform: scale(0);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
